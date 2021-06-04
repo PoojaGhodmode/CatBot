@@ -1,7 +1,7 @@
 # CATBOT 
 
 ## Description
-A Purrfect 😺 Telegram bot to send you cat images and facts. I used [pytelegrambotapi](https://github.com/eternnoir/pyTelegramBotAPI) for this project along with 2 API.
+A Purrfect 😺 Telegram bot to send you cat images and facts. I used [pytelegrambotapi](https://github.com/eternnoir/pyTelegramBotAPI) library for this project along with 2 API.
 - [Cat images](https://github.com/ThatCopy/catAPI/wiki/Usage)
 - [Cat Facts](https://alexwohlbruck.github.io/cat-facts/)
 

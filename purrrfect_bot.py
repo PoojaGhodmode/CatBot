@@ -33,14 +33,12 @@ Send /fact to get random Cat Fact.'''
 @bot.message_handler(regexp=r'meow')
 def meow(message):
     url = get_url()
-    print(message.chat.id)
     bot.send_photo(message.chat.id, url)
 
 @bot.message_handler(commands = ['fact'])
 @bot.message_handler(regexp=r'fact')
 def fact(message):
     fact = get_fact()
-    print(message.chat.id)
     bot.send_message(message.chat.id, fact)
 
 @bot.message_handler(func=lambda m: True)
